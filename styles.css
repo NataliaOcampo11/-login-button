@@ -1,0 +1,24 @@
+.button-area {
+  margin-top: 48px; /* Adds space above the button. */
+  text-align: center; /* Centers the button horizontally. */
+}
+
+.github-button {
+  background-color: #24292d; /* Sets the default dark background. */
+  color: #ffffff; /* Makes the text white. */
+  border: 0; /* Removes the browser's default button border. */
+  border-radius: 0px; /* Rounds the corners. */
+  padding: 12px 20px; /* Adds 12px vertically and 20px on each side. */
+  font-family: system-ui, sans-serif; /* Uses the device's standard font. */
+  font-size: 16px; /* Sets the text size. */
+  font-weight: 600; /* Makes the label slightly bolder. */
+  cursor: pointer; /* Shows a hand pointer over the button. */
+}
+
+.github-button:hover {
+  background-color: #353c42; /* Brightens the button on hover. */
+}
+
+.github-button:active {
+  background-color: #454e56; /* Brightens it further while pressed. */
+}
