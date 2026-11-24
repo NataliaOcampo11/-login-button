@@ -4,7 +4,7 @@ body {
 }
 
 .login-button {
-    background-color: #24292d; /* Sets the dark background */
+    background-color: #24292d; /* Sets the default dark background */
     color: white; /* Makes the text white */
     border: none; /* Removes the default border */
     border-radius: 0; /* Creates straight corners */
@@ -13,4 +13,12 @@ body {
     font-size: 16px; /* Sets the text size */
     font-family: Arial, sans-serif; /* Sets the text font */
     cursor: pointer; /* Shows a hand when hovering */
+}
+
+.login-button:hover {
+    background-color: #3c4349; /* Makes the button brighter when hovering */
+}
+
+.login-button:active {
+    background-color: #565f66; /* Makes the button brighter when pressed */
 }
